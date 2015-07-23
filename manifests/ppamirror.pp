@@ -1,5 +1,5 @@
 # Defines a ppa repository mirrored to a local AZ
-define apt::ppa_mirror(
+define apt::ppamirror(
   $ensure            = 'present',
   $options           = $::apt::ppa_mirror_options,
   $release           = undef,
